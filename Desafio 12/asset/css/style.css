@@ -1,0 +1,81 @@
+/*seccion top*/
+
+.top {
+  display: flex;
+}
+.title1 {
+  display: flex;
+  justify-content: center;
+  font-size: 4vh;
+}
+
+.topbox {
+  display: flex;
+  justify-content: center;
+}
+.imgapple img {
+  width: 40vh;
+  border: 2vh;
+}
+
+/*seccion mid */
+
+.mid {
+  display: grid;
+  grid-template-areas:
+    "box1 box2 box3"
+    "box4 box4 box4";
+  justify-content: center;
+}
+.title2 {
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+}
+.mid img {
+  width: 40vh;
+  height: 40vh;
+}
+
+.midbox1 {
+  grid-area: box1;
+  margin: 10vh;
+  display: grid;
+}
+.midbox2 {
+  grid-area: box2;
+  margin: 10vh;
+  display: grid;
+}
+.midbox3 {
+  grid-area: box3;
+  margin: 10vh;
+  display: grid;
+}
+.midbutton {
+  display: grid;
+  grid-area: box4;
+  justify-content: center;
+}
+
+/*seccion bot*/
+
+.bot {
+  display: grid;
+  justify-content: center;
+}
+.title3 {
+  display: flex;
+  justify-content: center;
+  font-size: 4vh;
+}
+.passwordsection {
+  display: flex;
+  justify-content: center;
+  gap: 2vh;
+  margin: 3vh;
+}
+.passwordclick {
+  display: grid;
+  justify-content: center;
+}

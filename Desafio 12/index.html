@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/style.css" />
+  </head>
+
+  <body>
+    <!--seccion top (cambio de borde))-->
+
+    <section calss="top">
+      <div class="title1">
+        <h1>Cambio de color el borde de la imagen</h1>
+      </div>
+      <div class="topbox">
+        <div class="imgapple">
+          <img
+            onclick="borderapple()"
+            id="appletop"
+            src="./asset/img/manzana1.jpg"
+            alt="imagen de manzana"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--seccion mid (stickers)-->
+    <div class="title2">
+      <h1>Conteo Stickers</h1>
+    </div>
+    <section class="mid">
+      <div class="midbox1">
+        <img src="./asset/img/frutilla1.jpg" />
+        <input type="number" id="input01" min="0" />
+      </div>
+      <div class="midbox2">
+        <img src="./asset/img/naranja1.jpg" />
+
+        <input type="number" id="input02" min="0" />
+      </div>
+
+      <div class="midbox3">
+        <img src="./asset/img/pera1.jpg." />
+
+        <input type="number" id="input03" min="0" />
+      </div>
+
+      <div class="midbutton">
+        <button onclick="calculatorBotton()">Calcular</button>
+        <p id="textcalculator"></p>
+      </div>
+    </section>
+
+    <!--seccion bot (password)-->
+
+    <section class="bot">
+      <div class="title3">
+        <h1>Password</h1>
+      </div>
+      <div class="passwordsection">
+        <div class="botbutton">
+          <select name="number" id="pass1">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select name="number" id="pass2">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select name="number" id="pass3">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+      </div>
+      <div class="passwordclick">
+        <button onclick="passwordbutton()" id="passbutton">Ingresar</button>
+        <p id="passwordanswer"></p>
+      </div>
+    </section>
+
+    <script src="./asset/java/script.js"></script>
+  </body>
+</html>
